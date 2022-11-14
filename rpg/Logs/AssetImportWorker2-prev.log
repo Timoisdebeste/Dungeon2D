@@ -572,3 +572,9 @@ Received Import Request.
   path: Assets/Tiles/Ground Tiles/Tiles_84.asset
   artifactKey: Guid(107f9c26d06baee4489b7f585c047033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Tiles/Ground Tiles/Tiles_84.asset using Guid(107f9c26d06baee4489b7f585c047033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158423718aed2610c01d62ae19d05e9') in 0.012548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 924.347666 seconds.
+  path: Assets/Pallets/ground.prefab
+  artifactKey: Guid(04f5b9804be9a2546888502e5ef11d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallets/ground.prefab using Guid(04f5b9804be9a2546888502e5ef11d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cab66850faf6437b1e15fa63336d82a') in 0.041054 seconds 
