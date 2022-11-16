@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'nl' Physical Memory: 16227 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'nl' Physical Memory: 16251 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Patrick/Documents/GitHub/Dungeon2D/rpg
+C:/Users/timob/OneDrive/Documents/GitHub/Dungeon2D/rpg
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64646
-Successfully changed project path to: C:/Users/Patrick/Documents/GitHub/Dungeon2D/rpg
-C:/Users/Patrick/Documents/GitHub/Dungeon2D/rpg
+53122
+Successfully changed project path to: C:/Users/timob/OneDrive/Documents/GitHub/Dungeon2D/rpg
+C:/Users/timob/OneDrive/Documents/GitHub/Dungeon2D/rpg
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,114 +47,112 @@ C:/Users/Patrick/Documents/GitHub/Dungeon2D/rpg
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 104.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 167.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Patrick/Documents/GitHub/Dungeon2D/rpg/Assets
+[Subsystems] Discovering subsystems at path C:/Users/timob/OneDrive/Documents/GitHub/Dungeon2D/rpg/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon Pro WX 3100 (ID=0x6985)
-    Vendor:   ATI
-    VRAM:     2027 MB
-    Driver:   31.0.12016.3004
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1700
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005405 seconds.
+Registered in 0.006139 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 112.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 142.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  1.022 seconds
 Domain Reload Profiling:
-	ReloadAssembly (757ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (544ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (335ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (437ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (143ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008305 seconds.
+Registered in 0.009536 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Patrick\Documents\GitHub\Dungeon2D\rpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Patrick\Documents\GitHub\Dungeon2D\rpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\timob\OneDrive\Documents\GitHub\Dungeon2D\rpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\timob\OneDrive\Documents\GitHub\Dungeon2D\rpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 207.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.460 seconds
+- Completed reload, in  1.983 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1461ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1984ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1201ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1609ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (401ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (669ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (909ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (330ms)
+				RefreshPlugins (208ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (354ms)
 				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.5 KB). Loaded Objects now: 4531.
+Unloading 38 unused Assets / (56.4 KB). Loaded Objects now: 4531.
 Memory consumption went from 151.5 MB to 151.4 MB.
-Total: 4.573200 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.297300 ms MarkObjects: 3.788500 ms  DeleteObjects: 0.094700 ms)
+Total: 4.195100 ms (FindLiveObjects: 0.448500 ms CreateObjectMapping: 0.365700 ms MarkObjects: 3.285200 ms  DeleteObjects: 0.094600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -162,136 +160,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 176361.978923 seconds.
-  path: Assets/Pallets/ground.prefab
-  artifactKey: Guid(04f5b9804be9a2546888502e5ef11d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pallets/ground.prefab using Guid(04f5b9804be9a2546888502e5ef11d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfc99f7e8ea7738c0c069a818c21051') in 0.235915 seconds 
+  Time since last request: 515862.676970 seconds.
+  path: Assets/sprites/jemm stick wand.png
+  artifactKey: Guid(990b3506c01d3ec44b45afd291b33d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/jemm stick wand.png using Guid(990b3506c01d3ec44b45afd291b33d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d14ce25ad5b50b8236da63e8327bab1') in 0.164980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/pixil-frame-0 (5).png
+  artifactKey: Guid(6a50b9451253ea243972c089fd3ba1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/pixil-frame-0 (5).png using Guid(6a50b9451253ea243972c089fd3ba1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d7e26214fee373f348482a8c8b3d63') in 0.019762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprites/pixil-frame-0 (4).png
+  artifactKey: Guid(0e62ef3a000b752449086ae1e97c96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/pixil-frame-0 (4).png using Guid(0e62ef3a000b752449086ae1e97c96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4974a32507dc31d30015a2a3207c5d49') in 0.024170 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/prefabs/Grid.prefab
-  artifactKey: Guid(3b119f265345aa942b5019b08e59bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Grid.prefab using Guid(3b119f265345aa942b5019b08e59bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9967ff763830083f6d8f8276808da0') in 0.018432 seconds 
+  path: Assets/sprites/Grass.png
+  artifactKey: Guid(94681b9a02462b94e9cb53e0e536c43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Grass.png using Guid(94681b9a02462b94e9cb53e0e536c43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc36d0415488616497a19ae2412c7258') in 0.020412 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.221872 seconds.
-  path: Assets/sprites/48x48 trees.png
-  artifactKey: Guid(0e6e997665da3e148bf35bc8aa795eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/48x48 trees.png using Guid(0e6e997665da3e148bf35bc8aa795eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5535590e48597089ec41bba9abf05f') in 0.066061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/sprites/pixil-frame-0 (3).png
-  artifactKey: Guid(3a6fdeb2133a18a419549d3415252074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/pixil-frame-0 (3).png using Guid(3a6fdeb2133a18a419549d3415252074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52d7aa0d2f8b94245c7d93031297eff') in 0.022510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/sprites/jemm stick wand.png
-  artifactKey: Guid(990b3506c01d3ec44b45afd291b33d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/jemm stick wand.png using Guid(990b3506c01d3ec44b45afd291b33d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d14ce25ad5b50b8236da63e8327bab1') in 0.024803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/sprites/sand path.png
-  artifactKey: Guid(6e48199e373ad104f9293ae0bf9db429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/sand path.png using Guid(6e48199e373ad104f9293ae0bf9db429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f05b79cee07f13d814dc20d5c0cc97') in 0.019419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/sprites/pixil-frame-0 (7).png
-  artifactKey: Guid(44541d7d5af83814a913629dff8e1e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/pixil-frame-0 (7).png using Guid(44541d7d5af83814a913629dff8e1e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241d9446ee10e40d6881512dddb98a26') in 0.020872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/sprites/pixil-frame-0 (6).png
-  artifactKey: Guid(f358a9142f0934a4b90dd6555a844f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/pixil-frame-0 (6).png using Guid(f358a9142f0934a4b90dd6555a844f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ab1d76219c445dc199fd8db19a368b') in 0.021978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/sprites/pixil-frame-0 (4).png
-  artifactKey: Guid(0e62ef3a000b752449086ae1e97c96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/pixil-frame-0 (4).png using Guid(0e62ef3a000b752449086ae1e97c96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4974a32507dc31d30015a2a3207c5d49') in 0.027321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/sprites/Tiles.png
-  artifactKey: Guid(4ee80cc7e67103444a0f9aa3d01fc3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/Tiles.png using Guid(4ee80cc7e67103444a0f9aa3d01fc3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8a749d13f8deac40d194b3a69adc72') in 0.269047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/sprites/LMAO.JPG
-  artifactKey: Guid(7217b9cc98636d143822dc63f677458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/LMAO.JPG using Guid(7217b9cc98636d143822dc63f677458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca23b6bd707e5ec29317e55f2a9076') in 0.032052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/sprites/Health bar.png
-  artifactKey: Guid(b7a99bd7259ca7343934e7a2eb330a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/Health bar.png using Guid(b7a99bd7259ca7343934e7a2eb330a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0383ba4f47d95ecfbde77e96f85090ed') in 0.030546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/sprites/Tiles-roads.png
-  artifactKey: Guid(7d3c513e3efd5f3499d7f4dec20a3f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/Tiles-roads.png using Guid(7d3c513e3efd5f3499d7f4dec20a3f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5234d777b1f65c2d8a1f76818d1777') in 0.029747 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016627 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Patrick\Documents\GitHub\Dungeon2D\rpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Patrick\Documents\GitHub\Dungeon2D\rpg\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1353ms)
-		BeginReloadAssembly (199ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1037ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (556ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4556.
-Memory consumption went from 155.3 MB to 155.3 MB.
-Total: 3.439900 ms (FindLiveObjects: 0.360900 ms CreateObjectMapping: 0.199400 ms MarkObjects: 2.853300 ms  DeleteObjects: 0.025200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Ground.png
+  artifactKey: Guid(cb0f387f99982b444875fbc0eed29567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Ground.png using Guid(cb0f387f99982b444875fbc0eed29567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdcf45eb35994b2498f643c6c246899') in 0.250079 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
